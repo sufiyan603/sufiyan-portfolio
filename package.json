@@ -13,6 +13,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "bun": "^1.1.29",
     "gh-pages": "^6.1.1",
     "react": "^19.0.0-rc-b57d2823-20240822",
     "react-anchor-link-smooth-scroll": "^1.0.12",

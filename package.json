@@ -2,10 +2,10 @@
   "name": "portfolio",
   "homepage": "https://sufiyan603.github.io/sufiyan_portfolio",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "predeploy": "bun run dist",
+    "predeploy": "bun run build",
     "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite dist",

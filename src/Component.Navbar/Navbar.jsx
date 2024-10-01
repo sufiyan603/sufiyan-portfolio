@@ -1,6 +1,9 @@
 import React, { useRef, useState } from 'react'
 import "./navbar.css"
 import AnchorLink from 'react-anchor-link-smooth-scroll'
+import icon from '../../src/assets/menu.png'
+import we1Image from '../../src/assets/we1.png'
+import close from '../../src/assets/close.png'
 
 const Navbar = () => {
     const [menu, setMenu] = useState("home");
@@ -16,10 +19,10 @@ const Navbar = () => {
 
     return (
         <div className='nav-list'>
-            <img src="src\assets\we1.png" alt='s' className='logo'></img>
-            <img src='src\assets\menu.png' onClick={navOpen} className='nav-open' />
+            <img src={we1Image}alt='s' className='logo'></img>
+            <img src={icon} onClick={navOpen} className='nav-open' />
             <ul ref={menuref} className='nav-ul'>
-            <img src='src\assets\close.png' onClick={navClose} className='nav-close'/>
+            <img src={close} onClick={navClose} className='nav-close'/>
                 <li><AnchorLink className='anchor-link'  href='#home'><p onClick={() => setMenu("home")}>Home</p></AnchorLink></li>
                 <li><AnchorLink className='anchor-link'  href='#about'><p onClick={() => setMenu("about")}>About Me</p></AnchorLink></li>
                 <li><AnchorLink className='anchor-link'  href='#services'><p onClick={() => setMenu("services")}>Services</p></AnchorLink></li>

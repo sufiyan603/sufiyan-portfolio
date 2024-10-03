@@ -1,6 +1,6 @@
 const My_Work = [
     {
-        w_title: "Personal Protfolio",
+        w_title: "Personal Portfolio",
         w_desc: "Coming soon"
 
     },

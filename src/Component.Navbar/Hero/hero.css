@@ -66,6 +66,10 @@
     border: 2px solid #FFF;
 }
 
+.hero-resume a {
+    text-decoration: none;
+}
+
 .hero-connect:hover,
 .hero-resume:hover {
     transform: scale(1.05);

@@ -1,5 +1,9 @@
 import React from 'react'
 import "./contact.css"
+import artImage from '../../assets/art.png.png'
+import phone from '../../assets/phone.png'
+import gmail from '../../assets/gmail.png'
+import location from '../../assets/location.png'
 const Contact = () => {
     
 
@@ -48,7 +52,7 @@ const Contact = () => {
         <div id='contact' className='contact'>
             <div className='contact-title' >
                 <h1>Get in touch</h1>
-                <img src='src\assets\art.png.png' />
+                <img src={artImage} />
             </div>
             <div className='contact-section'>
                 <div className='contact-left'>
@@ -56,15 +60,15 @@ const Contact = () => {
                     <p>I am available lets connect with me on email</p>
                     <div className='contact-details'>
                         <div className='contact-detail'>
-                            <img src='src\assets\phone.png' />
+                            <img src={phone} />
                             <p>+91 9834426839</p>
                         </div>
                         <div className='contact-detail'>
-                            <img style={{ width: "34px" }} src='src\assets\gmail.png' />
+                            <img style={{ width: "34px" }} src={gmail} />
                             <p>sufiyanrazapathan51800@gmail.com</p>
                         </div>
                         <div className='contact-detail'>
-                            <img src='src\assets\location.png' />
+                            <img src={location} />
                             <p>Nagpur maharashtra India</p>
                         </div>
                     </div>

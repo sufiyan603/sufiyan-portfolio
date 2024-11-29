@@ -4,18 +4,15 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "scripts": {
-    "predeploy": "npm run build",
-<<<<<<< HEAD
-    "deploy": "gh-pages -d build",
-=======
-    "deploy": "gh-pages -d dist",
->>>>>>> 95c413dcc06f2b91e2141d58ef844294282ea14a
-    "dev": "vite",
-    "build": "vite build",
-    "lint": "eslint .",
-    "preview": "vite preview"
-  },
+  
+    "scripts": {
+      "predeploy": "bun run build",
+      "deploy": "gh-pages -d dist",  
+      "dev": "vite",                 
+      "build": "vite build",         
+      "lint": "eslint ."
+    },
+  
   "dependencies": {
     "bun": "^1.1.29",
     "package-lock.json": "^1.0.0",

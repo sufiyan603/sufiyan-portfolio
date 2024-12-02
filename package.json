@@ -4,21 +4,20 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  
-    "scripts": {
-      "predeploy": "bun run build",
-      "deploy": "gh-pages -d dist",  
-      "dev": "vite",                 
-      "build": "vite build",         
-      "lint": "eslint ."
-    },
-  
+  "scripts": {
+    "predeploy": "bun run build",
+    "deploy": "gh-pages -d dist",
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint ."
+  },
   "dependencies": {
     "bun": "^1.1.29",
     "package-lock.json": "^1.0.0",
     "react": "^19.0.0-rc-b57d2823-20240822",
     "react-anchor-link-smooth-scroll": "^1.0.12",
-    "react-dom": "^19.0.0-rc-b57d2823-20240822"
+    "react-dom": "^19.0.0-rc-b57d2823-20240822",
+    "react-router-dom": "^7.0.1"
   },
   "devDependencies": {
     "@eslint/js": "^9.9.0",

@@ -32,6 +32,10 @@
     width: 180px;
     opacity: 0.8;
 }
+.green-text {
+    color: green;
+    font-size: 50px;
+  }
 
 /* Grid container */
 .mywork-container {
@@ -42,6 +46,7 @@
     box-sizing: border-box; /* Ensures perfect sizing across all screens */
     margin-bottom: 40px;
 }
+
 
 /* Work item styling */
 .work-format {

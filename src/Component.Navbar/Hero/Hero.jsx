@@ -2,7 +2,6 @@ import React from 'react'
 import "./hero.css"
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 import myImage from '../../assets/me.png'
-
 const Hero = () => {
   return (<>
     <div id='home' className='hero'>
@@ -10,12 +9,12 @@ const Hero = () => {
       <h1><span>I'm Sufiyan Raza Khan</span>, frontend developer based in Ind. </h1><br />
       <p>I am frontend developer from maharashtra, india fresher & looking for opportunity</p><br />
       <div className='hero-action'>
-        <div className='hero-connect'><AnchorLink className='anchor-link' href='#contact'>Contact Me</AnchorLink></div>
-        <div className='hero-resume' >
-          <a href="resume.pdf.pdf" target="_blank" >
+        <AnchorLink className='anchor-link' href='#contact'><div className='hero-connect'>Contact Me</div></AnchorLink>
+        <a href="resume.pdf.pdf" target="_blank" className='hero-resume' >
+          <div>
             My Resume
-          </a>
-        </div>
+          </div>
+        </a>
       </div>
     </div>
   </>

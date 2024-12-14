@@ -241,7 +241,7 @@
     .contact-submit {
         font-size: 20px;
         padding: 5px;
-        margin-left: 25vw;
+        margin-left: 22vw;
     }
 }
 
@@ -261,7 +261,7 @@
         border-radius: 50px;
         color: white;
         width: 30vw;
-        margin-left: 25vw;
+        margin-left: 19vw;
         background: linear-gradient(264deg, #df8908 -5.09%, #b415ff);
         padding: 5px;
         cursor: pointer;
@@ -288,7 +288,7 @@
         border-radius: 50px;
         color: white;
         width: 38vw;
-        margin-left: 15.5vw;
+        margin-left: 14vw;
         background: linear-gradient(264deg, #df8908 -5.09%, #b415ff);
         padding: 5px;
         cursor: pointer;

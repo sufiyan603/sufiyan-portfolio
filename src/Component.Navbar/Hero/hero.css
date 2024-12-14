@@ -39,6 +39,8 @@
     width: 200px;
     height: auto;
     margin-bottom: 20px;
+    box-shadow: 0px 0px 30px rgba(0, 0, 900, 0.7);
+    
 }
 
 .hero-action {

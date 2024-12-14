@@ -17,6 +17,7 @@
     padding: 0px 20px;
     font-size: 60px;
     font-weight: 600;
+    
     position: relative; /* Ensure h1 stays above the image */
     z-index: 1;         /* Ensure the h1 text is above the image */
 }

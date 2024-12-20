@@ -19,19 +19,14 @@
     width: 100%;  /* Full width for responsiveness */
 }
 
-.hero p {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 1.2rem;
-    max-width: 600px;
-    width: 90%;  /* Ensure the paragraph doesn't overflow */
-    text-align: center;
-}
-
-.hero h1 span {
-    background: linear-gradient(75deg, #da7c25 0.5%, #8923e1);
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
+#high {
+    color: white; /* Font color */
+    text-shadow: 2px 3px 3px rgba(255, 0, 0, 0.7);
+  }
+  
+.first {
+    color: rgb(255, 255, 255); /* Font color */
+    text-shadow: 2px 3px 3px rgba(41, 0, 246, 0.7);
 }
 
 .hero img {

@@ -11,9 +11,9 @@ const About = () => {
                 <img src={artImage} alt="Close" />
             </div>
             <div className='about-section'>
-                <div className='section1'>
+                {/* <div className='section1'>
                     <img src={myImage} className='about2' />
-                </div>
+                </div> */}
                 <div className='about-right'>
                     <div className='about-para'>
                         <p>As a front-end developer, I craft responsive, user-friendly interfaces using HTML, CSS, and React. I’m passionate about coding, learning new technologies, and creating seamless, interactive web experiences that perform well across all devices.</p>
